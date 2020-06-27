@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added automatic release with a new CI pipeline.
   - Added DSC HQRM Tests
   - New examples for the resources
+- xRDCertificateConfiguration
+  - New resource to configure the used certificate on a deployment
 
 ### Changed
 
@@ -21,6 +23,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Changed resouce key from Server alone to Role + Server.
     This allows the resource to be used multiple times for different roles on
     the same server. (Issue #62)
+<<<<<<< HEAD
+=======
+- Changes to xRemoteApp
+  - Fix xRDRemoteApp Test-TargetResource to not test PowerShell common parameters
+>>>>>>> c0650de5af6f5eddcf6f860c677b048087a1b1e0
 
 ## 1.9.0.0
 
